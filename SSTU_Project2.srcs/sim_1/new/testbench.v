@@ -17,7 +17,7 @@ module testbench;
 
     initial begin
         rst = 0;
-        #2;
+        #10;
         rst = 1;
         #10;
         rst = 0;
